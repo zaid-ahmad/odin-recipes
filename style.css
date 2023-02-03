@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 3%;
+}
+
+li {
+    transition: .2s;
+    filter: brightness(70%);
+}
+
+li a {
+    padding-top: 2%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+a p{
+    margin-top: 2%;
+    text-align: center;
+}
+
+li:hover {
+    transition: .2s;
+    filter: brightness(100%);
+}
